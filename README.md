@@ -13,6 +13,7 @@ IPs = filterIP.filter_ip_read("filepath")
 
 >
 import filterIP
+
 IPs = filterIP.filter_ip_iter("filepath")
 
 ##3、从多个文件中批量搜索
