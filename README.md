@@ -2,6 +2,7 @@
 
 ##1、从小于1G的单个文件中搜索
 + 先将文件读取到内存中，处理速度更快，但文件过大时会导致内存溢出
+
 > import filterIP
 > IPs = filterIP.filter_ip_read("filepath")
 
