@@ -4,8 +4,8 @@
 + 先将文件读取到内存中，处理速度更快，但文件过大时会导致内存溢出
 
 ======
-> import filterIP
-> IPs = filterIP.filter_ip_read("filepath")
+import filterIP
+IPs = filterIP.filter_ip_read("filepath")
 
 ##2、从大于1G的单个文件中搜索
 + 迭代读取，每次处理一部分，经过实测，python会自动进行buffer管理，
