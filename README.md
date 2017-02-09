@@ -10,7 +10,8 @@
 + 迭代读取，每次处理一部分，经过实测，python会自动进行buffer管理，
 + 而如果使用read(size)的方式，即使对处理过的数据进行del操作，依然会出现内存溢出的情况
 
->import filterIP
+>
+import filterIP
 IPs = filterIP.filter_ip_iter("filepath")
 
 ##3、从多个文件中批量搜索
